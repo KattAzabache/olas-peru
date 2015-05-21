@@ -1,0 +1,294 @@
+/*menu*/
+.menu{
+    padding: 0;
+}
+img.fondo {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.row{
+    margin: 0;
+    z-index: 20;
+}
+.fa-home:before {
+   padding: 10%;
+}
+.fa-tasks:before {
+   padding: 10%;
+}
+.fa-users:before {
+   padding: 10%;
+}
+.fa-phone-square:before {
+   padding: 10%;
+}
+.menu section{/*
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /*rgb(64, 211, 187);
+    border-right: 1px solid #F95A08;*/
+    ul {
+         padding:0;
+         text-align: center;
+         margin: 0;
+         position: fixed;
+         width: 16.8%;
+         background-color: rgba(253, 252, 252, 0.63);
+         border-right: 1px solid #F95A08;
+        li{
+          width: 100%;
+          color: rgb(255, 84, 3);
+          margin: auto;
+          padding: 37% 7%;
+          margin: auto;
+          font-size: 19px;
+          text-align: left;
+        }    
+   }
+}
+
+.menu section ul li:hover{
+    background-color: rgb(240, 166, 35);
+    color: white;
+}
+/*content2*/
+.logo-grande {
+  text-align: center;
+   img.logo {
+     width: 45%;
+     padding: 10%;
+   }
+}
+
+ /* SLOGAN */
+.slogn {
+  padding: 10% 0 0 0;
+}
+.slogn h1{
+  font-family: 'Playball', cursive;
+  color: white;
+}
+
+.slogn h3 {
+  font-family: 'Playball', cursive;
+  margin: 0;
+  color: white;
+}
+/* PAQUETES */
+
+.medio {
+  width: 100%;
+}
+
+.medio h1 {
+  color: #060606;
+  font-size: 43px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-family: 'Playball', cursive;
+}
+
+.pack{
+  border: 1px solid white;
+  background-color: white;
+  width: 27%;
+  height: 79%;
+  float: left;
+  margin: 25px;
+}
+
+.titpaq{
+  text-align: left;
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+}
+
+.precio{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding: 3px;
+}
+
+.mes{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+}
+
+.semana{
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #0B173B;
+  background-color: white;
+}
+
+.incluye{
+  text-align: center;
+  padding: 15px 0;
+  line-height: 1.5em;
+  font-size: 12px;
+  border-bottom: 1px solid #0B173B;
+  background-color: white;
+}
+
+.boton span{
+  text-align: center;
+  padding: 17px;
+  background-color: #F56208;
+  font-size: 17px;
+  color: white;
+}
+
+.boton{
+  text-align: center;
+  padding: 40px;
+}
+
+.boton span:hover{
+  background-color: black;
+  color:#0B173B;
+}
+
+.contpack{
+  padding: 20px;
+  background-color: #F56208;
+}
+/* QUE ES */
+.nos{
+    background: rgba(37, 32, 30, 0.3);
+    padding: 5% 2%;
+}
+.quees{
+  width: 100%;
+  padding: 50px 100px;
+  background-image: url(img/tile2.png);
+}
+
+.quees h1{
+  color: #060606;
+  font-size: 43px;
+  text-align: center;
+  padding: 10px 0 40px 0;
+  font-family: 'Playball', cursive;
+  margin: 0;
+}
+
+.video{
+  float: left;
+  border:none;/*
+  padding: 0 50px;*/
+}
+video {
+  margin-top: 0;
+}
+
+.quees p{
+  color: #FFFEFE;
+  font-family: 'Playball', cursive;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.4em;
+  padding-bottom: 40px;
+}
+/* SECCION PROFESORES */
+
+.profesor1 img{
+  padding: 2%;
+  width: 100%;
+}
+.profesor2 img{
+  padding: 2%;
+  width: 100%;  
+}
+
+/*.profesor2{
+  padding: 0 100px 20px 100px;
+  background-color: white;
+}*/
+
+
+.prof{
+  padding-right: 16px;
+  text-align: center;
+}
+
+/*.prof1{
+  padding:0px;
+  text-align: center;
+}*/
+
+.profesor1 h3{
+  color: #060606;
+  font-size: 50px;
+  text-align: center;
+  padding: 4% 0;
+  font-family: 'Playball', cursive;
+}
+
+.conjunto{
+  padding: 0 100px 50px 100px;
+}
+.conjunto2{
+  padding: 0 100px 50px 100px;
+}
+.nombre{
+  text-align: center;
+  padding: 0 84px;
+  display: inline-block;
+  color: #0B173B;
+  font-family: 'Lato', sans-serif;
+}
+/* PIE DE PÁGINA */
+
+.piepagina{
+  height: 90px;
+  background-color: black;
+}
+
+.piepagina span{
+  color: darkgray;
+  margin-top: 10px;
+  margin-left: 50px;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.imgface{
+  position: relative;
+  top: 23px;
+  left: 70px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/*CONTACTO*/
+
+.contacto{
+  height: 370px;
+  width: 100%;
+  background-image: url(img/tile2.png);
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+ }
+
+.contacto h1{
+  color: #0B173B;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px; 
+  text-align: center;
+  padding: 40px 0 40px 0;
+  line-height: 1em;
+}
+
+.imgface:hover{
+  background-color:#1EBAF2;
+}
