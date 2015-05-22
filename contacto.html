@@ -32,21 +32,22 @@
                 </section>
             </div>
             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
-                <div class="contacto" id="Contacto">
-                  <h1>CONTÁCTANOS</h1>
-                    <form id="form">
-                  Nombre y Apellidos:<br>
-                  <input type="text" name="nombre" value="">
-                  <br>
-                  Correo Electrónico:<br>
-                  <input type="text" name="correo" value="">
-                  <br>
-                  Mensaje:<br>
-                  <input type="text" name="mensaje" value="">
-                  <br><br>
-                  <input type="submit" value="ENVIAR">
-                  </form> 
-                </div>
+                <FORM id="contacto" name="contacto" action="enviar.php" method="POST">
+                  <p>
+                    <input name="nombre" type="text" id="nombre"
+                   size="42"placeholder="Nombre"/>
+                  </p>
+                  <p>
+                    <input id="Email" name="Email" type="email" placeholder="Correo electrónico" value="" spellcheck="false" class="">
+                  </p>
+                  <p>
+                    <textarea name="mensaje" cols="40" rows="8" id="mensaje" placeholder="Mensaje" >
+                    </textarea>
+                  </p>
+                  <p>
+                    <input type="submit" name="Submit" value="Enviar"/>
+                  </p>
+                  </FORM>
                 <div class="piepagina">
                   <span>Olasperu | Av. Una avenida, Dpto 222, Miraflores, Lima, Perú | inscripcion@olasperu.org | tel: 555 555 555</span>
                   <a href="https://www.facebook.com/"><img class="imgface" src="img/facebook.png"></a>
@@ -54,8 +55,22 @@
                 </div>
              </div>
           </div>
-
-
+<!-- 
+                <div class="contacto" id="Contacto">
+                  <h1>CONTÁCTANOS</h1>
+                    <form id="form">
+                      Nombre y Apellidos:<br>
+                  <input type="text" name="nombre" value="">
+                  <br>
+                    Correo Electrónico:<br>
+                  <input type="text" name="correo" value="">
+                  <br>
+                     Mensaje:<br>
+                  <input type="text" name="mensaje" value="">
+                  <br><br>
+                  <input type="submit" value="ENVIAR">
+                  </form> 
+                </div> -->
         </div>
        <script src="mi-script.js"></script> 
      <script src="http://code.jquery.com/jquery-latest.js"></script>

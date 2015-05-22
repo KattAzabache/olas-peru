@@ -5665,7 +5665,7 @@ border-right: 1px solid #F95A08;*/ }
       width: 100%;
       color: #ff5403;
       margin: auto;
-      padding: 37% 7%;
+      padding: 33.5% 7%;
       margin: auto;
       font-size: 19px;
       text-align: left; }
@@ -5805,22 +5805,41 @@ video {
   padding: 2%;
   width: 100%; }
 
+.second-effect .mask {
+  opacity: 0;
+  overflow: visible;
+  border: 0px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  transition: all 1.4s ease-in-out;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 0; }
+
+.second-effect a.info {
+  position: relative;
+  top: -10px;
+  opacity: 0;
+  transform: scale(0, 0);
+  transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out; }
+
+.second-effect:hover .mask {
+  opacity: 1;
+  border: 100px solid rgba(0, 0, 0, 0.7); }
+
+.second-effect:hover a.info {
+  opacity: 1;
+  transform: scale(1, 1);
+  transition-delay: 0.3s; }
+
 .profesor2 img {
   padding: 2%;
   width: 100%; }
 
-/*.profesor2{
-  padding: 0 100px 20px 100px;
-  background-color: white;
-}*/
 .prof {
   padding-right: 16px;
   text-align: center; }
 
-/*.prof1{
-  padding:0px;
-  text-align: center;
-}*/
 .profesor1 h3 {
   color: #060606;
   font-size: 50px;
@@ -5882,5 +5901,22 @@ video {
 
 .imgface:hover {
   background-color: #1EBAF2; }
+
+form#contacto {
+  padding: 10%;
+  text-align: center; }
+
+input#nombre {
+  padding: 1%;
+  background-color: rgba(231, 219, 219, 0.88); }
+
+input#Email {
+  padding: 1%;
+  background-color: rgba(231, 219, 219, 0.88);
+  width: 39%; }
+
+textarea#mensaje {
+  width: 39%;
+  background-color: rgba(231, 219, 219, 0.88); }
 
 /*# sourceMappingURL=main.css.map */
