@@ -25,7 +25,7 @@ img.fondo {
 }
 .menu section{
     ul {
-         padding: 1% 0;
+         padding: 0;
          text-align: center;
          margin: 0;
          position: fixed;
@@ -60,7 +60,7 @@ img.fondo {
 
  /* SLOGAN */
 .slogn {
-  padding: 10% 0 0 0;
+  padding: 6% 0 0 0;
 }
 .slogn h1{
   font-family: 'Playball', cursive;
@@ -174,14 +174,12 @@ img.fondo {
   font-family: 'Playball', cursive;
   margin: 0;
 }
-
-.video{
-  float: left;
-  border:none;/*
-  padding: 0 50px;*/
+ center{
+ margin-top: 5%;
 }
-video {
-  margin-top: 0;
+.video {
+border: 2px solid white;
+width: 82%;
 }
 
 .quees p{
@@ -211,50 +209,35 @@ video {
   box-shadow: 0px 0px 5px #aaa;
   cursor: default;
 }/*rgba(208, 156, 21, 0.7)*/
-
 .second-effect .mask {
-  opacity: 0;
-  overflow: visible;
-  border: 0px solid rgba(0,0,0,0.7);
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  position: absolute;
-  top: 0;
+   opacity: 0;
+   overflow:visible;
+   border:0px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+   position: absolute;
 }
 
-.second-effect a.info {
-   position:relative;
-   top:-35px;
+.second-effect h3.info {
+/*   position:absolute;*/
+   top:-10px;
    opacity:0;
-   transform: scale(2, -5);
+   transform:scale(0,0);
    transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
-   width: 50%;
-   height: 50%;
    color: white;
-   font-size: 20px;
-
 }
 
 .second-effect:hover .mask {
    opacity: 1;
    border:100px solid rgba(0,0,0,0.7);
    width: 100%;
-   height: 100%;
 }
 
 .second-effect:hover a.info {
    opacity:1;
    transform:scale(1,1);
    transition-delay:0.3s;
-   width: 100%;
-   height: 100%;
-} 
+}
 .profesor2 img{
   padding: 2%;
   width: 100%;  
@@ -271,7 +254,7 @@ video {
   color: #060606;
   font-size: 50px;
   text-align: center;
-  padding: 4% 0;
+  padding: 0 0 7% 0;
   font-family: 'Playball', cursive;
 }
 
