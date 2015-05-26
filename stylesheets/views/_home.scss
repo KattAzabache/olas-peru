@@ -208,29 +208,45 @@ width: 82%;
   text-align: center;
   box-shadow: 0px 0px 5px #aaa;
   cursor: default;
-}/*rgba(208, 156, 21, 0.7)*/
-.mask{
-cursor: pointer;
-  opacity: 1;
-  visibility: visible;
-  border: 130px solid rgba(34, 33, 33, 0.41);
-  box-sizing: border-box;
-  transition: all 0.4s cubic-bezier(0.94, 0.85, 0.1, 0.62);
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
+}
+.mask{
+  opacity: 0;
+  overflow:visible;
+  border:0px solid rgba(0,0,0,0.7);
+  box-sizing:border-box;
+  transition: all 0.4s ease-in-out;
+  left: 15px;
+  width: 88%;
+  height: 100%;
+  position: absolute;
 }
 .view.second-effect {
   height: 30%;
 }
-.second-effect:hover .mask {
+.view.second-effect h3.info {
+  position: relative;
+  top: -50px;
+  opacity: 1;
+  transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+  color: white;
+  font-size: 20px;
+  left: -21px;
+  font-family: 'Playball', cursive;
+}
+.view.second-effect:hover a.info {
+ /*  opacity:1;*/
+   transform:scale(1,1);
+   transition-delay:0.5s;
+   color: white;
+   position: absolute;
+}
+.view.second-effect:hover .mask {
   border: 0px double rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
+  opacity: 1;
+  border:100px solid rgba(0,0,0,0.7);
+  left: 15px;
+  width: 88%;
   height: 100%;
 }
 .profesor2 img{
