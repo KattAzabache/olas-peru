@@ -5690,8 +5690,25 @@ img.fondo {
   color: white; }
 
 /* PAQUETES */
+.grid {
+  background-color: rgba(9, 8, 8, 0.18); }
+
+.contpack {
+  padding: 2%;
+  background-color: white; }
+
+.baby {
+  background-color: white; }
+
+.color {
+  background: #fca506;
+  padding: 2%; }
+
 .medio {
   width: 100%; }
+
+.pack {
+  padding: 2%; }
 
 .medio h1 {
   color: #060606;
@@ -5699,14 +5716,6 @@ img.fondo {
   text-align: center;
   padding: 10px 0 10px 0;
   font-family: 'Playball', cursive; }
-
-.pack {
-  border: 1px solid white;
-  background-color: white;
-  width: 27%;
-  height: 79%;
-  float: left;
-  margin: 25px; }
 
 .titpaq {
   text-align: left;
@@ -5743,21 +5752,22 @@ img.fondo {
 .boton span {
   text-align: center;
   padding: 17px;
-  background-color: #F56208;
+  border: 2px solid #fca506;
   font-size: 17px;
-  color: white; }
+  color: black; }
 
 .boton {
   text-align: center;
   padding: 40px; }
 
 .boton span:hover {
-  background-color: black;
-  color: #0B173B; }
+  background-color: #fca506;
+  color: white; }
 
-.contpack {
-  padding: 20px;
-  background-color: #F56208; }
+.baby img {
+  height: 80%;
+  width: 100%;
+  padding: 4% 6%; }
 
 /* QUE ES */
 .nos {
