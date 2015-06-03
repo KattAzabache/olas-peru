@@ -5636,16 +5636,20 @@ img.fondo {
   z-index: 20; }
 
 .fa-home:before {
-  padding: 10%; }
+  padding: 10%;
+  font-size: 30px; }
 
 .fa-tasks:before {
-  padding: 10%; }
+  padding: 10%;
+  font-size: 30px; }
 
 .fa-users:before {
-  padding: 10%; }
+  padding: 10%;
+  font-size: 30px; }
 
 .fa-phone-square:before {
-  padding: 10%; }
+  padding: 10%;
+  font-size: 30px; }
 
 .menu section ul {
   padding: 2% 0;
@@ -5653,33 +5657,39 @@ img.fondo {
   margin: 0;
   position: fixed;
   width: 8.5%;
-  background-color: rgba(255, 255, 255, 0.87);
-  border-right: 1px solid #212D80;
+  background-color: rgba(255, 255, 255, 0.46);
+  border-right: 1px solid #0548A1;
   height: 100%; }
   .menu section ul li {
     width: 100%;
-    color: blue;
-    padding: 49% 7%;
+    padding: 43% 5%;
     margin: auto;
     font-weight: 600;
-    text-align: left; }
+    text-align: center;
+    color: #0548A1; }
 
 .menu section ul li:hover {
-  background-color: #212D80;
+  background-color: #0548A1;
   color: white; }
 
 /*content2*/
 .logo-grande {
   text-align: center; }
-  .logo-grande img.logo {
-    width: 45%;
-    padding: 10%; }
+  .logo-grande h1 {
+    font-size: 100px;
+    font-family: 'Vidaloka', serif;
+    padding: 13%;
+    font-weight: 900;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000AC2), to(#29FAFA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; }
 
 /* SLOGAN */
 .slogn {
   padding: 6% 0 0 0; }
 
-.slogn h1 {
+.slogn h2 {
   font-family: 'Playball', cursive;
   color: white; }
 
@@ -5690,7 +5700,8 @@ img.fondo {
 
 /* PAQUETES */
 .grid {
-  background-color: rgba(9, 8, 8, 0.18); }
+  background-color: rgba(54, 60, 61, 0.15);
+  height: 100%; }
 
 .contpack {
   padding: 2%;
@@ -5702,7 +5713,7 @@ img.fondo {
     padding: 2%; }
 
 .color {
-  background: #fca506;
+  background: #2A83A0;
   padding: 2%; }
 
 .medio {
@@ -5747,13 +5758,13 @@ img.fondo {
   padding: 15px 0;
   line-height: 1.5em;
   font-size: 12px;
-  border-bottom: 1px solid #0B173B;
+  border-bottom: 1px solid #2A83A0;
   background-color: white; }
 
 .boton span {
   text-align: center;
   padding: 17px;
-  border: 2px solid #fca506;
+  border: 2px solid #0548A1;
   font-size: 17px;
   color: black; }
 
@@ -5762,7 +5773,7 @@ img.fondo {
   padding: 40px; }
 
 .boton span:hover {
-  background-color: #fca506;
+  background-color: #2A83A0;
   color: white; }
 
 /* QUE ES */
@@ -5772,7 +5783,7 @@ img.fondo {
 
 .quees {
   width: 100%;
-  padding: 50px 100px;
+  padding: 5px 100px;
   background-image: url(img/tile2.png);
   padding-top: 0; }
 
@@ -5797,8 +5808,7 @@ center {
   font-size: 25px;
   margin: 0 auto;
   text-align: justify;
-  line-height: 1.4em;
-  padding-bottom: 40px; }
+  line-height: 1.4em; }
 
 /* SECCION PROFESORES */
 .profesor1,
@@ -5889,15 +5899,16 @@ center {
 
 /* PIE DE P├üGINA */
 .piepagina {
-  height: 90px;
-  background-color: black; }
+  background-color: #00366e;
+  padding: 2%;
+  bottom: -34px;
+  position: relative; }
 
 .piepagina span {
   color: darkgray;
   margin-top: 10px;
   margin-left: 50px;
   letter-spacing: 0.1em;
-  padding: 20px;
   font-family: 'Lato', sans-serif; }
 
 .imgface {
@@ -5930,7 +5941,7 @@ center {
   background-color: #1EBAF2; }
 
 form#contacto {
-  padding: 10%;
+  padding: 12%;
   text-align: center; }
 
 input#nombre {
